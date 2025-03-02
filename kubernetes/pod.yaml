@@ -1,0 +1,18 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: datacollector
+spec:
+  containers:
+  - name: collector
+    image: datacollector:latest
+    imagePullPolicy: Never
+    ports:
+    - containerPort: 8080
+    resources:
+      limits:
+        memory: "512Mi"
+        cpu: "1"
+      requests:
+        memory: "256Mi"
+        cpu: "0.5"
