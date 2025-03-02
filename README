@@ -1,7 +1,5 @@
 # SensorNet: ML-Powered Sensory Monitoring Platform
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
 A production-grade microservices platform for processing and analyzing sensory data in real-time, built with DevOps best practices.
 
 ## Project Overview
@@ -9,8 +7,6 @@ A production-grade microservices platform for processing and analyzing sensory d
 SensorNet demonstrates modern DevOps practices through a practical application that processes environmental sensory data. This project serves as both a learning experience and a portfolio showcase of DevOps skills including containerization, orchestration, CI/CD, and infrastructure as code.
 
 The system collects environmental data (sound, light, movement) from sensors, processes it through ML pipelines, and provides real-time insights and recommendations through an API.
-
-// ![SensorNet Architecture](//to-be-added-later)
 
 ## Technology Stack
 
